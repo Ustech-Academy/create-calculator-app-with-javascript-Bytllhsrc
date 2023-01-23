@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="icon" href="./images/title-icon.png">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <div id="hesapM">
+    <h1>Erdal Bakkal's Calculator</h1>
+    <div id="gosterge">
+      <input type="text" id="input">
+
+    </div>
+
+    <div id="buttons">
+      <button id="islem" onclick="handleClick('-')">-</button>
+      <button id="islem" onclick="handleClick('+')">+</button>
+      <button id="islem" onclick="handleClick('*')">*</button>
+      <button id="islem" onclick="handleClick('/')">/</button>
+      <button id="7" onclick="handleClick('7')">7</button>
+      <button id="8" onclick="handleClick('8')">8</button>
+      <button id="9" onclick="handleClick('9')">9</button>
+      <button id="4" onclick="handleClick('4')">4</button>
+      <button id="5" onclick="handleClick('5')">5</button>
+      <button id="6" onclick="handleClick('6')">6</button>
+      <button id="1" onclick="handleClick('1')">1</button>
+      <button id="2" onclick="handleClick('2')">2</button>
+      <button id="3" onclick="handleClick('3')">3</button>
+      <button id="0" onclick="handleClick('0')">0</button>
+      <button id="esit" onclick="findResult()">=</button>
+      <button id="point" onclick="handleClick('.')">.</button>
+      <button id="clear" onclick="actionClear()">C</button>
+    </div>
+  </div>
+  <script src="./app/app.js"></script>
+</body>
+
+</html>
