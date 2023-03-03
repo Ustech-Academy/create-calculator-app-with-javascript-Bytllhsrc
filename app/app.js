@@ -24,7 +24,7 @@ function handleClick(key) {
         return;
     }
     if (forbiddenOperators.includes(key) && inputText === "") {
-        inputText = "Önce rakam yaz, Boş İsmail!";
+        inputText = "Önce rakam yaz, Boşş İsmail!";
         document.getElementById("input").value = inputText;
         setTimeout(() => {
             inputText = "";
